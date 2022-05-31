@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: rgb(59, 59, 59);
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  margin: 40px;
+}
+
+label {
+  color: white;
+}
+
+.formulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0 0 20px;
+}
+
+.to-do {
+  margin: 0 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+#tarefa,
+.botao {
+  border: 1px solid black;
+}
+
+.botao {
+  border-radius: 10px;
+  transition: 0.3s all;
+}
+
+.botao:hover {
+  font-size: 14px;
+  background-color: rgb(29, 29, 29);
+  color: white;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+main > div {
+  margin: 10px;
+  padding: 5px;
+}
+
+#lista-tarefas {
+  margin: 0 10px;
+}
+
+#lista-tarefas:checked + .muda {
+  text-decoration: line-through;
+}

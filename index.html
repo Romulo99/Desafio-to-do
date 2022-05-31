@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>To-do list</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo-principal">Lista de tarefas</h1>
+      <form class="formulario">
+        <label for="input-lista" class="to-do">Escre sua tarefa</label>
+        <input
+          id="tarefa"
+          type="text"
+          required
+          placeholder="Tirar o lixo"
+          class="to-do"
+        />
+        <button class="botao" type="button" onclick="criarTarefa()">
+          Adcionar tarefa
+        </button>
+      </form>
+    </header>
+    <main></main>
+    <script src="assets/scripts/scripts.js"></script>
+  </body>
+</html>
